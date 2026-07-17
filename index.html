@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coders Club | GPREC - Code • Create • Collaborate</title>
+    <meta name="description" content="Official website of Coders Club - G. Pulla Reddy Engineering College (GPREC). Empowering future developers through innovation and collaboration.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-content">
+            <img src="assets/logo/coders-club-logo.svg" alt="Club Logo" class="pulse-logo">
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+
+    <!-- Scroll Progress -->
+    <div id="scroll-progress"></div>
+
+    <!-- Header / Navbar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <img src="https://gprec.ac.in/wp-content/uploads/2021/04/Logo.png" alt="GPREC Logo" class="logo">
+                <div class="brand-text">
+                    <span class="club-name">CODERS CLUB - GPREC</span>
+                    <span class="tagline">Code • Create • Collaborate</span>
+                </div>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#faculty">Faculty</a></li>
+                <li><a href="#teams">Teams</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-right">
+                <img src="assets/logo/coders-club-logo.svg" alt="Club Logo" class="logo logo-right">
+                <div class="hamburger">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div id="particles-js"></div>
+        <div class="hero-content">
+            <img src="assets/logo/coders-club-logo.svg" alt="Main Logo" class="hero-logo reveal">
+            <h1 class="gradient-text">CODERS CLUB - GPREC</h1>
+            <h2 id="typing-text"></h2>
+            <p class="hero-tagline">Empowering future developers through coding, innovation, hackathons, and real-world projects.</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn btn-neon ripple">Join Our Community</a>
+                <a href="#events" class="btn btn-outline">Explore Events</a>
+            </div>
+        </div>
+        <div class="ticker-wrapper">
+            <div class="ticker">
+                <span>🔥 Latest Updates: 🚀 CodeX 4.0 — Coming Soon!</span>
+                <span>🎯 Recruitment for 2K29 Batch — Starting Soon!</span>
+                <span>💻 New Workshop: AI & Modern Web — Register Now!</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section reveal">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub">Who We Are</span>
+                <h2>About Coders Club</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Coders Club is a student-driven technical community at G. Pulla Reddy Engineering College dedicated to nurturing the next generation of innovators. We believe that coding is more than just syntax; it's a tool for problem-solving and transformation.</p>
+                    <p>Our mission is to foster a culture of competitive coding, collaborative learning, and leadership. From beginners taking their first steps in Python to seasoned developers building complex AI models, we provide a platform for everyone to grow.</p>
+                </div>
+                <div class="about-features">
+                    <div class="feature-card glass-card">
+                        <i class="fas fa-rocket"></i>
+                        <h3>Innovation</h3>
+                    </div>
+                    <div class="feature-card glass-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Teamwork</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Objectives Section -->
+    <section id="objectives" class="section alt-bg reveal">
+        <div class="container">
+            <div class="section-header center">
+                <h2>Our Mission & Objectives</h2>
+            </div>
+            <div class="cards-grid">
+                <div class="obj-card glass-card tilt">
+                    <i class="fas fa-code"></i>
+                    <h3>Improve Coding Skills</h3>
+                    <p>Mastering algorithms and data structures through consistent practice.</p>
+                </div>
+                <div class="obj-card glass-card tilt">
+                    <i class="fas fa-trophy"></i>
+                    <h3>Competitive Coding</h3>
+                    <p>Preparing students for top-tier platforms like Codeforces and LeetCode.</p>
+                </div>
+                <div class="obj-card glass-card tilt">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Placement Ready</h3>
+                    <p>Focused training for technical interviews and industry requirements.</p>
+                </div>
+                <div class="obj-card glass-card tilt">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Innovation Hub</h3>
+                    <p>Encouraging students to build software that solves real-world problems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Stats -->
+    <section class="impact-section reveal">
+        <div class="container impact-grid">
+            <div class="stat-item">
+                <h3 class="counter" data-target="10">0</h3>
+                <p>Major Events</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="counter" data-target="1000">0</h3>
+                <p>Participants</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="counter" data-target="500">0</h3>
+                <p>Active Members</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="counter" data-target="4">0</h3>
+                <p>Dedicated Teams</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faculty Team -->
+    <section id="faculty" class="section reveal">
+        <div class="container">
+            <div class="section-header center">
+                <h2>Our Mentors</h2>
+            </div>
+            <div class="faculty-grid">
+                <div class="faculty-card glass-card">
+                    <div class="faculty-img-placeholder"><i class="fas fa-user-tie"></i></div>
+                    <h3>A. Vishnu Vardhan Reddy</h3>
+                    <span class="role">Club Convenor</span>
+                    <p>Associate Professor, CSE (AI & ML)</p>
+                </div>
+                <div class="faculty-card glass-card">
+                    <div class="faculty-img-placeholder"><i class="fas fa-user-tie"></i></div>
+                    <h3>Sri. K. V. Rameswara Reddy</h3>
+                    <span class="role">Faculty Member</span>
+                    <p>Dept. of ECE</p>
+                </div>
+                <div class="faculty-card glass-card">
+                    <div class="faculty-img-placeholder"><i class="fas fa-user-tie"></i></div>
+                    <h3>Sri. Ramarao</h3>
+                    <span class="role">Faculty Member</span>
+                    <p>Dept. of CSE</p>
+                </div>
+                <div class="faculty-card glass-card">
+                    <div class="faculty-img-placeholder"><i class="fas fa-user-tie"></i></div>
+                    <h3>Basha</h3>
+                    <span class="role">Faculty Member</span>
+                    <p>Dept. of EEE</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="section alt-bg reveal">
+        <div class="container">
+            <div class="section-header center">
+                <h2>Events Conducted</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item glass-card reveal">
+                    <h3>Galactic Gamble</h3>
+                    <p>A galaxy-themed coding competition with interactive challenges.</p>
+                </div>
+                <div class="timeline-item glass-card reveal">
+                    <h3>Idea Sprint</h3>
+                    <p>Innovation hackathon for rapid prototyping of software solutions.</p>
+                </div>
+                <div class="timeline-item glass-card upcoming reveal">
+                    <div class="badge neon-glow">UPCOMING</div>
+                    <h3>CodeX 4.0</h3>
+                    <p>The flagship coding experience. Arriving soon!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Us Section -->
+    <section id="join" class="join-section reveal">
+        <div class="container center">
+            <h2>Ready to Begin Your Coding Journey?</h2>
+            <p>Become part of GPREC's fastest-growing coding community.</p>
+            <button class="btn btn-neon" id="confetti-btn">Join Our Community <i class="fas fa-paper-plane"></i></button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-wave"></div>
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <div class="footer-logos">
+                    <img src="https://gprec.ac.in/wp-content/uploads/2021/04/Logo.png" alt="GPREC">
+                    <img src="assets/logo/coders-club-logo.svg" alt="Coders Club">
+                </div>
+                <p>"Building Tomorrow's Innovators, One Line of Code at a Time."</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#faculty">Faculty</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Connect With Us</h4>
+                <p><i class="fas fa-envelope"></i> codersclub@gprec.ac.in</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 CODERS CLUB - GPREC. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="back-to-top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- JS Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
